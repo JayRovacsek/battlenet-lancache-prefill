@@ -14,9 +14,9 @@ let
   src = fetchFromGitHub {
     owner = "JayRovacsek";
     repo = "battlenet-lancache-prefill";
-    rev = "v${version}";
+    rev = "592fcefe80df3fa022d3f680b5ab1eef67130094";
     fetchSubmodules = true;
-    hash = lib.fakeHash;
+    hash = "sha256-DDxvjMtFcbXCZUxz1fYRH3D7gp9bzu3TvySpTcG/gZU=";
   };
 
 in buildDotnetModule {
