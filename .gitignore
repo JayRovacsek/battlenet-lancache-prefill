@@ -12,3 +12,5 @@ lockfile
 /BattleNetPrefill/cache/
 /Benchmarks/BenchmarkDotNet.Artifacts/results
 /BattleNetPrefill/BattleNetPrefill.csproj.user
+
+.direnv

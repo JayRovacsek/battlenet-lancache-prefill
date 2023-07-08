@@ -23,7 +23,7 @@
         /// <summary>
         /// Contains user configuration.  Should not be deleted, doing so will reset the app back to defaults.
         /// </summary>
-        private static readonly string ConfigDir = Path.Combine(AppContext.BaseDirectory, "Config");
+        private static readonly string ConfigDir = Path.Combine(ConfigDir, "Config");
 
         public static readonly string UserSelectedAppsPath = Path.Combine(ConfigDir, "selectedAppsToPrefill.json");
 
