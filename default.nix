@@ -28,6 +28,4 @@ in buildDotnetModule {
   ];
 
   nugetDeps = ./deps.nix;
-
-  packNupkg = true;
 }

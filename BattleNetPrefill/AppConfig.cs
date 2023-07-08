@@ -25,7 +25,7 @@
         /// </summary>
         private static readonly string ConfigDir = Path.Combine(ConfigDir, "Config");
 
-        public static readonly string UserSelectedAppsPath = Path.Combine(ConfigDir, "selectedAppsToPrefill.json");
+        public static readonly string UserSelectedAppsPath = Path.Combine(CacheDir, "selectedAppsToPrefill.json");
 
         public static readonly string LogFileBasePath = @$"{DirectorySearch.TryGetSolutionDirectory()}/Logs";
         private static bool _compareAgainstRealRequests;
